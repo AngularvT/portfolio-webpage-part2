@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello World",
+    "body": "First post body about game systems and prototypes.",
+    "publishedAt": "2026-11-15T02:40:44.766Z"
+  },
+  {
+    "slug": "hello-world-2",
+    "title": "Hello World",
+    "body": "Second post with an identical title — both must survive.",
+    "publishedAt": "2026-11-15T02:40:44.847Z"
+  },
+  {
+    "slug": "final-browser-check",
+    "title": "Final Browser Check",
+    "body": "Distinct body published for the final verification pass.",
+    "publishedAt": "2026-11-15T02:43:18.373Z"
+  }
+]

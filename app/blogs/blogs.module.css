@@ -1,0 +1,79 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 32px;
+  max-width: 720px;
+  font-family: var(--font-geist-sans);
+}
+
+.page h1 {
+  font-size: 34px;
+  letter-spacing: -1.5px;
+}
+
+.intro {
+  max-width: 560px;
+  line-height: 28px;
+  opacity: 0.75;
+}
+
+.adminLink {
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 24px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 12px;
+}
+
+.card h2 {
+  font-size: 22px;
+  letter-spacing: -0.5px;
+}
+
+.postLink:hover {
+  text-decoration: underline;
+}
+
+.date {
+  font-size: 14px;
+  opacity: 0.65;
+}
+
+.loading,
+.empty,
+.loadError {
+  margin-top: 16px;
+  line-height: 28px;
+}
+
+.loadError {
+  color: #b45309;
+}
+
+.postBody {
+  margin-top: 8px;
+  line-height: 30px;
+  white-space: pre-wrap;
+}
+
+.backLink {
+  margin-top: 24px;
+  font-weight: 500;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
